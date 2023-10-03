@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'vazir-1';
+    src: url('../font/vr1.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir-2';
+    src: url('../font/vr2.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir-3';
+    src: url('../font/vr3.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir-4';
+    src: url('../font/vr4.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir-5';
+    src: url('../font/vr5.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir-6';
+    src: url('../font/vr6.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(148, 240, 148);
+    font-family: 'vazir-5';
+}
