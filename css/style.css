@@ -49,6 +49,60 @@
 body{
     font-size: 16px;
     color: #fff;
-    background-color: rgb(148, 240, 148);
+    background-color: rgb(248, 254, 248);
+    /* background-color: red; */
     font-family: 'vazir-5';
+}
+
+#header-nav{
+    background-color: lightblue;
+    border: 0;
+    border-radius: 0;
+}
+
+#logo{
+    background: url('../image/7.png') no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    font-family: 'vazir-1';
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand h1{
+    margin : .5em 0;
+}
+
+.navbar-brand span{
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a,
+.navbar-brand a:hover,
+.navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-brand p{
+    color:  #000;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span{
+    vertical-align: middle;
 }
